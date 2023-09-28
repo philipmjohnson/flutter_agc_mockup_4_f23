@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'app.dart';
-import 'pages/settings/settings_controller.dart';
-import 'pages/settings/settings_service.dart';
+import 'features/settings/presentation/settings_controller.dart';
+import 'features/settings/presentation/settings_service.dart';
 
 /// Set up settings and wrap app in ProviderScope
 void main() async {

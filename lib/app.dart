@@ -1,23 +1,23 @@
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
 
-import 'pages/chapters/chapters_view.dart';
-import 'pages/discussions/discussions_view.dart';
-import 'pages/gardens/add_garden_view.dart';
-import 'pages/gardens/edit_garden_view.dart';
-import 'pages/gardens/gardens_view.dart';
-import 'pages/help/help_view.dart';
-import 'pages/help/help_view_local.dart';
-import 'pages/home/home_view.dart';
-import 'pages/outcomes/outcomes_view.dart';
-import 'pages/page_not_found/page_not_found_view.dart';
-import 'pages/sample_feature/sample_item_details_view.dart';
-import 'pages/seeds/seeds_view.dart';
-import 'pages/settings/settings_controller.dart';
-import 'pages/settings/settings_view.dart';
-import 'pages/signin/signin_view.dart';
-import 'pages/signup/signup_view.dart';
-import 'pages/users/users_view.dart';
+import 'features/authentication/presentation/signin_view.dart';
+import 'features/authentication/presentation/signup_view.dart';
+import 'features/chapter/presentation/chapters_view.dart';
+import 'features/discussion/presentation/discussions_view.dart';
+import 'features/garden/presentation/add_garden_view.dart';
+import 'features/garden/presentation/edit_garden_view.dart';
+import 'features/garden/presentation/gardens_view.dart';
+import 'features/help/presentation/help_view.dart';
+import 'features/help/presentation/help_view_local.dart';
+import 'features/home/presentation/home_view.dart';
+import 'features/outcome/presentation/outcomes_view.dart';
+import 'features/page_not_found/presentation/page_not_found_view.dart';
+import 'features/sample/presentation/sample_item_details_view.dart';
+import 'features/seed/presentation/seeds_view.dart';
+import 'features/settings/presentation/settings_controller.dart';
+import 'features/settings/presentation/settings_view.dart';
+import 'features/user/presentation/users_view.dart';
 
 /// Top-level widget that implements routing to the appropriate page.
 class MyApp extends StatelessWidget {
