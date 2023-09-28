@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../garden/data/garden_providers.dart';
 import '../../garden/domain/garden_db.dart';
+import '../data/chapter_providers.dart';
 import '../domain/chapter_db.dart';
 
 /// Provides a Card that summarizes a Chapter.

@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../chapter/data/chapter_providers.dart';
 import '../../chapter/domain/chapter_db.dart';
+import '../../garden/data/garden_providers.dart';
 import '../../garden/domain/garden_db.dart';
+import '../data/user_providers.dart';
 import '../domain/user_db.dart';
 import 'user_avatar.dart';
 

@@ -90,11 +90,3 @@ class UserDB {
     return _users.map((userData) => userData.email).toList();
   }
 }
-
-final userDBProvider = Provider<UserDB>((ref) {
-  return UserDB(ref);
-});
-
-final currentUserIDProvider = StateProvider<String>((ref) {
-  return 'user-001';
-});

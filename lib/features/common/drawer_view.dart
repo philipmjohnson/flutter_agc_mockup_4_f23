@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../features/chapter/presentation/chapters_view.dart';
-import '../features/discussion/presentation/discussions_view.dart';
-import '../features/garden/presentation/gardens_view.dart';
-import '../features/help/presentation/help_view.dart';
-import '../features/home/presentation/home_view.dart';
-import '../features/outcome/presentation/outcomes_view.dart';
-import '../features/seed/presentation/seeds_view.dart';
-import '../features/settings/presentation/settings_view.dart';
-import '../features/user/domain/user_db.dart';
-import '../features/user/presentation/user_avatar.dart';
-import '../features/user/presentation/users_view.dart';
+import '../chapter/presentation/chapters_view.dart';
+import '../discussion/presentation/discussions_view.dart';
+import '../garden/presentation/gardens_view.dart';
+import '../help/presentation/help_view.dart';
+import '../home/presentation/home_view.dart';
+import '../outcome/presentation/outcomes_view.dart';
+import '../seed/presentation/seeds_view.dart';
+import '../settings/presentation/settings_view.dart';
+import '../user/data/user_providers.dart';
+import '../user/domain/user_db.dart';
+import '../user/presentation/user_avatar.dart';
+import '../user/presentation/users_view.dart';
 
 class DrawerView extends ConsumerWidget {
   const DrawerView({Key? key}) : super(key: key);

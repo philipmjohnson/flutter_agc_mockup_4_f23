@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../components/drawer_view.dart';
+import '../../common/drawer_view.dart';
 import '../../help/presentation/help_button.dart';
-import '../../user/domain/user_db.dart';
+import '../../user/data/user_providers.dart';
+import '../data/chapter_providers.dart';
 import '../domain/chapter_db.dart';
 import 'chapter_card_view.dart';
 

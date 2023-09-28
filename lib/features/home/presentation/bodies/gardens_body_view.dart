@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../garden/data/garden_providers.dart';
 import '../../../garden/domain/garden_db.dart';
 import '../../../garden/presentation/garden_summary_view.dart';
-import '../../../user/domain/user_db.dart';
+import '../../../user/data/user_providers.dart';
 
 /// Displays a list of Gardens.
 class GardensBodyView extends ConsumerWidget {

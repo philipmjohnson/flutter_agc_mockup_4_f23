@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../data/user_providers.dart';
 import '../domain/user_db.dart';
 
 /// Provides a CircleAvatar with either an image if available or initials, plus a label.

@@ -1,6 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
 
+import '../../user/data/user_providers.dart';
 import '../../user/domain/user_db.dart';
 
 /// The data associated with each garden.
@@ -174,7 +175,3 @@ class GardenDB {
     return userDB.getUsers(data.viewerIDs);
   }
 }
-
-final gardenDBProvider = Provider<GardenDB>((ref) {
-  return GardenDB(ref);
-});

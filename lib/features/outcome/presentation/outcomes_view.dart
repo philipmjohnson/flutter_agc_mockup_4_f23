@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../markdown/presentation/mockup_markdown.dart';
+import '../../markdown/presentation/mockup_markdown_view.dart';
 
 const pageSpecification = '''
 # Outcomes Page Specification

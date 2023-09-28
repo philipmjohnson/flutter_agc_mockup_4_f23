@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../news/data/news_provider.dart';
 import '../../../news/domain/news_db.dart';
-import '../../../user/domain/user_db.dart';
+import '../../../user/data/user_providers.dart';
 import 'news_body_item_view.dart';
 
 /// Displays a list of News items (if there are any).

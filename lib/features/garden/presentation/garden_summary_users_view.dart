@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../user/presentation/user_labeled_avatar.dart';
+import '../data/garden_providers.dart';
 import '../domain/garden_db.dart';
 
 /// Provides a row of User avatars associated with a gardenID.

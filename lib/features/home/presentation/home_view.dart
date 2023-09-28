@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../components/drawer_view.dart';
+import '../../common/drawer_view.dart';
+import '../../garden/data/garden_providers.dart';
 import '../../garden/domain/garden_db.dart';
 import '../../help/presentation/help_button.dart';
+import '../../news/data/news_provider.dart';
 import '../../news/domain/news_db.dart';
-import '../../user/domain/user_db.dart';
+import '../../user/data/user_providers.dart';
 import 'bodies/chapter_body_view.dart';
 import 'bodies/gardens_body_view.dart';
 import 'bodies/news_body_view.dart';

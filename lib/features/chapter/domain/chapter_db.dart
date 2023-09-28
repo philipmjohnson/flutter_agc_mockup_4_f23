@@ -1,5 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../garden/data/garden_providers.dart';
 import '../../garden/domain/garden_db.dart';
 
 /// The data associated with each chapter.
@@ -93,7 +94,3 @@ class ChapterDB {
     return userIDs.toList();
   }
 }
-
-final chapterDBProvider = Provider<ChapterDB>((ref) {
-  return ChapterDB(ref);
-});
